@@ -7,6 +7,6 @@ the data will be extracted from the request and sent to the MQTT server.
 You should replace "mqtt.broker.address:1883" with your MQTT broker's address.
 
 Скрипт запускает http сервер, на который принимает запросы, и публикует их параметры на mqtt  сервер:
-при отправке HTTP POST-запроса на http://ip.хоста :8080/sendmqtt с параметрами topic и message,
+при отправке HTTP POST-запроса на http://ip.хоста:8080/sendmqtt с параметрами topic и message,
 данные будут извлечены из запроса и отправлены на MQTT-сервер. 
 Вы должны заменить "mqtt.broker.address:1883" на адрес вашего MQTT-брокера.	

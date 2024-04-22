@@ -1,7 +1,7 @@
 # http to mqtt
  The script starts an http server, which receives requests and publishes their parameters to the mqtt server
 
-	The script starts an http server, which receives requests and publishes their parameters to the mqtt server:
+The script starts an http server, which receives requests and publishes their parameters to the mqtt server:
 When sending an HTTP POST request to http://ip.host:8080/sendmqtt with the topic and message parameters,
 the data will be extracted from the request and sent to the MQTT server.
 You should replace "mqtt.broker.address:1883" with your MQTT broker's address.
